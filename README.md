@@ -1,21 +1,13 @@
-# RemoveFilesNotContainingClassFrom19
+The program was created to process COCO dataset for purpose of using it with YOLOv5 model. 
+We have selected 19 classes that we want the dataset to contain and discard other classes. 
+The program will read label files and image files and remove files which does not contain at least one of the 19 classes. 
 
-**TODO: Add description**
+how to use it?
 
-## Installation
+iex -S mix
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `remove_files_not_containing_class_from_19` to your list of dependencies in `mix.exs`:
+then  in the iex shell
 
-```elixir
-def deps do
-  [
-    {:remove_files_not_containing_class_from_19, "~> 0.1.0"}
-  ]
-end
-```
+RemoveFilesNotContainingClassFrom19.main
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/remove_files_not_containing_class_from_19>.
-
+You will find result in the output directory

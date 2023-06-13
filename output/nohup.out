@@ -23,3 +23,7 @@ kf.kio.workers.file: copy() QUrl("file:///home/coean/0/dev/projects/remove_files
 kf.kio.workers.file: the file doesn't have any xattr
 kf.kio.workers.file: copy() QUrl("file:///home/coean/0/dev/projects/remove_files_not_containing_class_from_19/output/images/train2017/.x") to QUrl("file:///home/coean/0/dev/projects/remove_files_not_containing_class_from_19/images/train2017/.x") mode= 420
 kf.kio.workers.file: the file doesn't have any xattr
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
