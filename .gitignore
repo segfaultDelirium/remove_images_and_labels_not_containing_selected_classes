@@ -25,15 +25,14 @@ remove_files_not_containing_class_from_19-*.tar
 # Temporary files, for example, from tests.
 /tmp/
 
-/labels/train2017/*
-/labels/val2017/*
+/labels/train2017/*.txt
+/labels/val2017/*.txt
 
-/images/train2017/*
-/images/val2017/*
+/images/train2017/*.jpg
+/images/val2017/*.jpg
 
-/output/labels/train2017/*
-/output/labels/val2017/
+/output/labels/train2017/*.txt
+/output/labels/val2017/*.txt
 
-/output/images/train2017/*
-/output/images/val2017/
-train2017.zip
+/output/images/train2017/*.jpg
+/output/images/val2017/*.jpg
